@@ -1,0 +1,52 @@
+% Welcome to Recovery Calculation Central!
+
+DryMass = 0;
+DragCoefficient = 0;
+DragCoeffPrevStage = 0;
+Height = 0;
+Temperature = 0;
+SaturationPressure = 0;
+Humidity = 0;
+ChuteArea = 0;
+ChuteAreaPrevStage = 0;
+SpillHoleRadius = 0;
+OpeningLoadFactor = 0;
+Diameter = 0;
+BlackPowderMass = 0;
+VolumeRecoveryBay = 0;
+NoseConeMass = 0;
+MaxShearPinForce = 0;
+MinShearPinForce = 0;
+
+InputData =  xlsread('RecoveryInputData.xls')
+
+DryMass = 0;
+DragCoefficient = 0;
+DragCoeffPrevStage = 0;
+Height = 0;
+Temperature = 0;
+SaturationPressure = 0;
+Humidity = 0;
+ChuteArea = 0;
+ChuteAreaPrevStage = 0;
+SpillHoleRadius = 0;
+OpeningLoadFactor = 0;
+Diameter = 0;
+BlackPowderMass = 0;
+VolumeRecoveryBay = 0;
+NoseConeMass = 0;
+MaxShearPinForce = 0;
+MinShearPinForce = 0;
+
+
+
+% InputVector  = [ DryMass DragCoefficient DragCoeffPrevStage Height Temperature SaturationPressure Humidity ChuteArea ChuteAreaPrevStage SpillHoleRadius OpeningLoadFactor Diameter BlackPowderMass VolumeRecoveryBay NoseConeMass MaxShearPinForce MinShearPinForce ] 
+% 
+% Matrix = zeros ( 17, 2); 
+% Matrix ( :, 1 ) = InputVector ;
+% Matrix (:,2 ) = InputData
+% 
+% 
+%  
+
+
